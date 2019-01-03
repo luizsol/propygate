@@ -1,6 +1,6 @@
 # propygate
 
-A simple measurement and error propagation library
+A simple measurement and uncertainty propagation library
 
 ## What is it?
 
@@ -85,6 +85,6 @@ print(m1 ** (1 / 2))  # 3.1622776601683795 ± 0.0316227766016838
 ## Next features
 
 - [ ] Add tests
-- [ ] Pypi submition
+- [ ] Pypi submission
 - [ ] Unit support
 - [ ] Significant figure rule adherence
