@@ -1,34 +1,3 @@
-# propygate
-
-A simple measurement and error propagation library
-
-## What is it?
-
-This is a Python library dedicated to aid students and professionals in dealing with measurements and uncertainty propagation.
-
-Do you have to do a experimental physics report and forget how to properly estimate `sqrt((21.665 ± 0.002) * (16 ± 0.6) ^ (11/12))` or are you just feeling too lazy to do it by hand? Then this may be the right package for you!
-
-Are you a real scientist doing real science stuff? Then this probably isn't the correct library for you. Try using the [uncertainties](https://pythonhosted.org/uncertainties/) library instead.
-
-## How to install it?
-
-### The easy way (not working yet...)
-
-`pip install propygate`
-
-### The less easy way
-
-1 - Download the repository
-
-`git clone https://github.com/luizsol/propygate.git`
-
-2 - Install the package
-
-`pip install ./propygate`
-
-## How to use it?
-
-```python
 # We start by importing the Measurement class
 
 from propygate import Measurement
@@ -80,11 +49,3 @@ except:
 # Here's a tip: instead of using sqrt just exponentiate it to 1/2:
 
 print(m1 ** (1 / 2))  # 3.1622776601683795 ± 0.0316227766016838
-```
-
-## Next features
-
-- [ ] Add tests
-- [ ] Pypi submition
-- [ ] Unit support
-- [ ] Significant figure rule adherence
